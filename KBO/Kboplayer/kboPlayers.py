@@ -68,8 +68,16 @@ db_config = {
     "port": 3306,
     "user": "root",
     "password": "1234",
-    "database": "lee"
+    "database": "sportinfo"
 }
+
+# db_config = {
+#     "host": "localhost",
+#     "port": 3306,
+#     "user": "root",
+#     "password": "1234",
+#     "database": "lee"
+# }
 
 # 데이터베이스 연결 생성
 db = mysql.connector.connect(**db_config)

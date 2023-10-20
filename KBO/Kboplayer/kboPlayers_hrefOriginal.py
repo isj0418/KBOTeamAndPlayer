@@ -50,7 +50,7 @@ for p in range(len(TeamList)):
                 players_href.append(player_href)
 
 
-with open("KboPlayers_href.json", "w", encoding="utf-8") as json_file:
+with open("../KboPlayers_href.json", "w", encoding="utf-8") as json_file:
     json.dump(players_href, json_file, ensure_ascii=False, indent=4)
 # player_detail = player_detail.get_attribute('href')s
 
